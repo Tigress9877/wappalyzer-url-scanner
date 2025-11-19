@@ -1,0 +1,2 @@
+{"url": "https://example.com", "status": "success", "error": null, "technologies": [{"name": "Nginx", "categories": ["Web Servers"]}]}
+{"url": "https://cloudflare.com", "status": "success", "error": null, "technologies": [{"name": "Cloudflare", "categories": ["CDN"]}]}
