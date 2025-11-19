@@ -8,7 +8,7 @@ It prefers the **official Wappalyzer API** for accuracy and stability, with a sa
 > authentication, and proper rate limiting. The Python fallback is provided for convenience but may be
 > less accurate on dynamic sites.
 
-![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main)
+![CI](https://img.shields.io/github/actions/workflow/status/Tigress9877/wappalyzer-url-scanner/ci.yml?branch=main)
 
 ## Features
 - API-first detection with retry + rate limiting
@@ -19,7 +19,7 @@ It prefers the **official Wappalyzer API** for accuracy and stability, with a sa
 
 ## Quickstart
 ```bash
-git clone https://github.com/OWNER/REPO.git
+git clone https://github.com/Tigress9877/wappalyzer-url-scanner.git
 cd wappalyzer-url-scanner
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
@@ -109,3 +109,4 @@ MIT — see `LICENSE`.
 - Async httpx client
 - Domain-level caching / deduplication
 - Database sinks (SQLite/Postgres)
+
